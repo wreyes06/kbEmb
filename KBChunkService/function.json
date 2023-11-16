@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "BlobTrigger",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "%CONTAINERNAME%",
+      "connection": "STORAGECONNECTIONSTRING"
+    }
+  ]
+}
