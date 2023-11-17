@@ -68,6 +68,7 @@ jobs:
         id: deploy-to-function
         with:
           app-name: 'cba-eux-fn-kbaemb-dev'
+          slot-name: 'development'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
