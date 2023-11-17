@@ -2,6 +2,8 @@ import requests #for http requests
 import json #for json
 import openai
 import os
+from bs4 import BeautifulSoup
+
 
 # Disable SSL verification
 import urllib3
