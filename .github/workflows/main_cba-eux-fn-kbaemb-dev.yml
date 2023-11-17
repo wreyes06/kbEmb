@@ -70,6 +70,6 @@ jobs:
           app-name: 'cba-eux-fn-kbaemb-dev'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1590974F86924FD0BF69C3E2234DBF0B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A6F82A83E08E4A35A042A9F4FD5064C2 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
