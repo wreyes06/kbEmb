@@ -8,7 +8,7 @@ import KBChunkService.indexes as indexes
 import pandas as pd
 from bs4 import BeautifulSoup
 
-
+#main for function.json def
 def main(BlobTrigger: func.InputStream):
     logging.info(f"Python blob trigger function processed blob \n"
                  f"Name: {BlobTrigger.name}\n"
